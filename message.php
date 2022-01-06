@@ -1,11 +1,11 @@
 <?php
 session_start();
-if(isset($_GET['submit']))
+if(isset($_POST['submit']))
 {
-	$name=$_GET['name'];
-	$email=$_GET['email'];
-	$sub=$_GET['sub'];
-  	$mess=$GET['mess']
+	$name=$_POST['name'];
+	$email=$_POST['email'];
+	$sub=$_POST['sub'];
+  	$mess=$POST['mess']
 	$message="Name:".$name."\n"."Email:".$email."\n"."Sub:".$sub."\n"."Message:".$mess."\n";
 
 
