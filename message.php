@@ -5,8 +5,8 @@ if(isset($_POST['submit']))
 	$name=$_POST['name'];
 	$email=$_POST['email'];
 	$sub=$_POST['sub'];
-  	$message=$POST['message']
-	$message="Name:".$name."\n"."Email:".$email."\n"."Sub:".$sub."\n"."Message:".$message."\n";
+  	$mess=$POST['mess']
+	$message="Name:".$name."\n"."Email:".$email."\n"."Sub:".$sub."\n"."Message:".$mess."\n";
 
 
 	mail("kshitijpathak57@gmail.com","Enquiry","$message");
