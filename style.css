@@ -454,7 +454,7 @@ section .title::after{
     margin-bottom: 10px;
 }
 .contact .contact-content .left p{
-    text-align: center;
+    text-align: justify;
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;
